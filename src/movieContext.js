@@ -15,7 +15,7 @@ export const MovieProvider = ({ children }) => {
 
 	const getMovies = async (category) => {
 		let responce = await axios(
-			`https://api.themoviedb.org/3/movie/${category}/?api_key=86c67965185fdbb6fa7f4f4bb733bee4`
+			`https://api.themoviedb.org/3/movie/${category}?api_key=86c67965185fdbb6fa7f4f4bb733bee4`
 		);
 
 		setMovies(responce.data.results);
