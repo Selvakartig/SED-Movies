@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Switch, Redirect } from "react-router";
+import { MovieProvider } from "./movieContext";
+import MovieScroll from "./components/MovieScroll";
+import Nav from "./components/Nav";
+import MovieContainer from "./components/MovieContainer";
+import Footer from "./components/Footer";
+import Cart from "./components/Cart";
+import NotFound from "./components/NotFound";
+import About from "./components/About";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<MovieProvider>
+			<Nav />
+			<MovieScroll />
+			<div className="container mt-5">
+				<Switch>
+					<Route path="/cart" component={Cart} />
+					<Route path="/movies/:id" component={MovieContainer} />
+					<Route path="/movies" component={MovieContainer} />
+					<Route path="/about" component={About} />
+					<Route path="/not-found" component={NotFound} />
+					<Redirect path="/" exact to="/movies" />
+					<Redirect to="/not-found" />
+				</Switch>
+			</div>
+			<Footer />
+		</MovieProvider>
+	);
 }
 
 export default App;
