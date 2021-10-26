@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sed-movies/static/css/main.1f599b72.chunk.css",
-    "main.js": "/sed-movies/static/js/main.f3463196.chunk.js",
-    "main.js.map": "/sed-movies/static/js/main.f3463196.chunk.js.map",
+    "main.js": "/sed-movies/static/js/main.a6b8a0ec.chunk.js",
+    "main.js.map": "/sed-movies/static/js/main.a6b8a0ec.chunk.js.map",
     "runtime-main.js": "/sed-movies/static/js/runtime-main.fc0d6d86.js",
     "runtime-main.js.map": "/sed-movies/static/js/runtime-main.fc0d6d86.js.map",
     "static/css/2.fc9165e1.chunk.css": "/sed-movies/static/css/2.fc9165e1.chunk.css",
@@ -12,13 +12,14 @@
     "static/css/2.fc9165e1.chunk.css.map": "/sed-movies/static/css/2.fc9165e1.chunk.css.map",
     "static/css/main.1f599b72.chunk.css.map": "/sed-movies/static/css/main.1f599b72.chunk.css.map",
     "static/js/2.1ba946e9.chunk.js.LICENSE.txt": "/sed-movies/static/js/2.1ba946e9.chunk.js.LICENSE.txt",
-    "static/media/bootstrap-icons.css": "/sed-movies/static/media/bootstrap-icons.5747cea3.woff"
+    "static/media/bootstrap-icons.css": "/sed-movies/static/media/bootstrap-icons.5747cea3.woff",
+    "static/media/sad-face.974ee774.png": "/sed-movies/static/media/sad-face.974ee774.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fc0d6d86.js",
     "static/css/2.fc9165e1.chunk.css",
     "static/js/2.1ba946e9.chunk.js",
     "static/css/main.1f599b72.chunk.css",
-    "static/js/main.f3463196.chunk.js"
+    "static/js/main.a6b8a0ec.chunk.js"
   ]
 }
