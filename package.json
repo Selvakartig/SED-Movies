@@ -1,6 +1,6 @@
 {
 	"name": "sed-movies",
-	"homepage": "https://selvakartig.github.io/SED-Movies",
+	"homepage": "https://selvakartig.github.io/sed-movies",
 	"version": "0.1.0",
 	"private": false,
 	"dependencies": {
