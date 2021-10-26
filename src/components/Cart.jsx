@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import MovieContext from "../movieContext";
 import MovieItem from "./MovieItem";
-import sadimg from "./src/sad-face.png";
+import sadimg from "../sad-face.png";
 
 export default function Cart() {
 	const { cart, setCart } = useContext(MovieContext);
