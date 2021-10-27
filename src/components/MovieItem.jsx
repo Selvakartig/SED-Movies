@@ -16,7 +16,7 @@ export default function MovieItem(props) {
 	};
 
 	return (
-		<div id="movie-cards" className="col-3 mb-5 ">
+		<div id="movie-cards" className="col-md-6 col-lg-3 mb-5 ">
 			<div className="card h-100 ">
 				<img className="card-img-top " src={movie.pic} alt={movie.name} />
 
