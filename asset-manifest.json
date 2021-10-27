@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sed-movies/static/css/main.1f599b72.chunk.css",
-    "main.js": "/sed-movies/static/js/main.a6b8a0ec.chunk.js",
-    "main.js.map": "/sed-movies/static/js/main.a6b8a0ec.chunk.js.map",
+    "main.js": "/sed-movies/static/js/main.f8909898.chunk.js",
+    "main.js.map": "/sed-movies/static/js/main.f8909898.chunk.js.map",
     "runtime-main.js": "/sed-movies/static/js/runtime-main.fc0d6d86.js",
     "runtime-main.js.map": "/sed-movies/static/js/runtime-main.fc0d6d86.js.map",
     "static/css/2.fc9165e1.chunk.css": "/sed-movies/static/css/2.fc9165e1.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.fc9165e1.chunk.css",
     "static/js/2.1ba946e9.chunk.js",
     "static/css/main.1f599b72.chunk.css",
-    "static/js/main.a6b8a0ec.chunk.js"
+    "static/js/main.f8909898.chunk.js"
   ]
 }
