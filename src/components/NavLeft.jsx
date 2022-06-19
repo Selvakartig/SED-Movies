@@ -29,7 +29,7 @@ export default function NavLeft() {
 		<ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
 			<li className="nav-item">
 				<NavLink className="nav-link" to="/movies" onClick={handleHome}>
-					Home
+					Homes
 				</NavLink>
 			</li>
 			<li className="nav-item">
